@@ -1,44 +1,58 @@
+.container {
+	padding-left: 60px;
+	padding-right: 60px;
+
+}
 nav	{
 	padding-top: 10px;
 	padding-right: 10px;
-	padding-left: 60px;
-	padding-right: 60px;
 	text-align: left;
 	position: fixed;
 	height: 75px;
 	width: 100%;
 	background-color: grey;
 }
+nav a:hover {
+	color: black;
+}
 .circular--square {
   border-radius: 50%;
   height: 50px;
   width: 50px;
   border: 1px solid black;
-}
-.cat {
-	position: absolute;
-	top: 200px;
-	left: 200px;
-	height: 200px;
-	width: 200px;
+  vertical-align: middle;
 }
 
-.dog {
-	position: absolute;
-	top: 500px;
-	right: 200px;
-	height: 200px;
-	width: 200px;
+main {
+	padding-top: 90px;
+	min-width: 1000px;
 }
+
 .box {
 	position: relative;
 	border: 10px green dotted;
 	height: 300px;
 	width: 600px;
-	top: 300px;
-	left: 300px;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
 }
-html { 
+
+.cat, .dog {
+	position: absolute;
+	width: 200px;
+}
+
+.cat {
+	top: -90px;
+	left: -90px;
+}
+
+.dog {
+	bottom: -150px;
+	right: -60px;
+}
+body { 
   background: url(http://www.wallpapermade.com/images/wallpapers/originals/space-art-sky-space-landscape-wallpaper-2582.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
